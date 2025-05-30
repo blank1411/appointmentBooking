@@ -53,6 +53,7 @@ Create a new `appsettings.json` file in the root folder using this template:
 #### 🧬 Apply Database Migrations
 
 ```bash
+dotnet ef migrations add InitialMigrate
 dotnet ef database update
 ```
 
